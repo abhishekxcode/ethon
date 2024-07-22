@@ -17,6 +17,5 @@ async def vc_menu(event):
                         [Button.inline("info.", data="info"),
                          Button.inline("SOURCE", data="source")],
                         [Button.inline("NOTICE.", data="notice"),
-                         Button.inline("Main.", data="help")],
-                        [Button.url("DEVELOPER", url="t.me/FirstGenBots")]])
+                         Button.inline("Main.", data="help")]])
     
