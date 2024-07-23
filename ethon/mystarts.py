@@ -6,15 +6,15 @@ from telethon import events, Button
 async def start_srb(event, st):
     await event.reply(st, 
                       buttons=[
-                              [Button.inline("SET THUMB.", data="set"),
-                               Button.inline("REM THUMB.", data="rem")]])
+                              [Button.inline(" 📸 Set Thumbnail ", data="set"),
+                               Button.inline(" 🗑️ Remove Thumbnail ", data="rem")]])
                               
     
 async def vc_menu(event):
-    await event.edit("**VIDEO CONVERTOR v1.4**", 
+    await event.edit("**VIDEO Trimmer v2.0**", 
                     buttons=[
-                        [Button.inline("info.", data="info"),
-                         Button.inline("SOURCE", data="source")],
-                        [Button.inline("NOTICE.", data="notice"),
-                         Button.inline("Main.", data="help")]])
+                        [Button.inline(" ℹ️ Info", data="info"),
+                         Button.inline(" 📦 Source", data="source")],
+                        [Button.inline(" 📢 Notice", data="notice"),
+                         Button.inline(" 🏠 Main Menu", data="help")]])
     
